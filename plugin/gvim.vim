@@ -1,5 +1,4 @@
 set mouse=a
-set gfn=Inconsolata\ For\ Powerline\ 15
 
 " Showing whitespace
 set list listchars=tab:▷⋅,trail:·

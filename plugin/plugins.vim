@@ -9,6 +9,7 @@ let g:NERDCreateDefaultMappings = 0
 
 " CtrlP
 let g:ctrlp_map = '<Leader>t'
+let g:ctrlp_use_caching = 0
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_clear_cache_on_exit = 1
 let g:ctrlp_max_files = 0
@@ -17,10 +18,11 @@ let g:ctrlp_custom_ignore = {
   \ }
 
 " Coffeescript
-let g:coffee_compiler = '/usr/bin/coffee'
+let g:coffee_compiler = $VIM_COFFEE_BIN
 
 " Ag
 let g:agprg="ag --column --smart-case"
+let g:ag_qhandler="copen"
 
 " Fugitive
 " Disable list charaters on commit screen
