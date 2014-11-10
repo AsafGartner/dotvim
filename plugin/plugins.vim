@@ -10,17 +10,22 @@ let g:NERDCreateDefaultMappings = 0
 " CtrlP
 let g:ctrlp_map = '<Leader>t'
 let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_clear_cache_on_exit = 1
+let g:ctrlp_user_caching = 0
 let g:ctrlp_max_files = 0
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 let g:ctrlp_custom_ignore = {
   \ 'dir': '\v([\/]data$)|(source_maps)'
   \ }
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
 
 " Coffeescript
 let g:coffee_compiler = '/usr/bin/coffee'
 
 " Ag
 let g:agprg="ag --column --smart-case"
+let g:ag_qhandler="copen"
 
 " Fugitive
 " Disable list charaters on commit screen

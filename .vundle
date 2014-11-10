@@ -36,6 +36,7 @@ Plugin 'elzr/vim-json'
 
 " File management
 Plugin 'kien/ctrlp.vim'
+Plugin 'jdowner/ctrlp-py-matcher'
 Plugin 'scrooloose/nerdtree'
 Plugin 'thisivan/vim-bufexplorer'
 Plugin 'tpope/vim-eunuch'

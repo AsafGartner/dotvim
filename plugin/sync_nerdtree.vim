@@ -7,11 +7,15 @@ endfunction
 function! s:syncTree()
   if &modifiable && s:isNTOpen() && strlen(expand('%')) > 0 && expand('%') !~ "^/tmp" && !&diff && expand('%') !~ "\.git"
     let l:curwinnr = winnr()
+    NERDTreeCWD
+    exec l:curwinnr . "wincmd w"
     NERDTreeFind
     normal zb
     exec l:curwinnr . "wincmd w"
   endif
 endfunction
 
-autocmd BufEnter * call s:syncTree()
-
+augroup synctree
+  autocmd!
+  autocmd BufEnter * call s:syncTree()
+augroup END
