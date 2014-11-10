@@ -10,7 +10,7 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'rphillips/vim-zoomwin'
 
 " Vim completion
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'Shougo/neocomplcache.vim'
 
 " Vim Script Utils
 Plugin 'Shougo/vimproc'

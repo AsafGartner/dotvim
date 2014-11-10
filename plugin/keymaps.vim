@@ -62,3 +62,6 @@ nnoremap <Leader>gm :Gmove <C-R>=expand("%")<CR>
 
 xmap [e <Plug>unimpairedMoveSelectionUpgv
 xmap ]e <Plug>unimpairedMoveSelectionDowngv
+
+" NeoComplCache
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
