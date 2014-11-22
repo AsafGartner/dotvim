@@ -1,8 +1,8 @@
 set mouse=a
-set gfn=Inconsolata\ For\ Powerline\ 15
+set gfn=Consolas:h15:cDEFAULT
 
 " Showing whitespace
-set list listchars=tab:▷⋅,trail:·
+set list listchars=trail:�
 
 if has("gui_running")
   set guioptions=egt

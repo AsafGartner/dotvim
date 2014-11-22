@@ -1,6 +1,7 @@
 " Vundle
-set rtp+=~/.vim/bundle/vundle/
-call vundle#begin()
+set rtp+=~/vimfiles/bundle/vundle/
+let path='~/vimfiles/bundle'
+call vundle#begin(path)
 
 " let Vundle manage Vundle
 Plugin 'gmarik/vundle'
@@ -12,9 +13,6 @@ Plugin 'rphillips/vim-zoomwin'
 " Vim completion
 Plugin 'Shougo/neocomplcache.vim'
 
-" Vim Script Utils
-Plugin 'Shougo/vimproc'
-
 " Editing
 Plugin 'sjl/gundo.vim'
 Plugin 'scrooloose/nerdcommenter'
@@ -23,27 +21,17 @@ Plugin 'vim-scripts/YankRing.vim'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-abolish'
-Plugin 'AndrewRadev/splitjoin.vim'
 
 " Syntax highlighting
-Plugin 'groenewege/vim-less'
 Plugin 'skammer/vim-css-color'
 Plugin 'hail2u/vim-css3-syntax'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'leafgarland/typescript-vim'
 Plugin 'elzr/vim-json'
 
 " File management
 Plugin 'kien/ctrlp.vim'
-Plugin 'jdowner/ctrlp-py-matcher'
 Plugin 'scrooloose/nerdtree'
 Plugin 'thisivan/vim-bufexplorer'
 Plugin 'tpope/vim-eunuch'
-Plugin 'sjbach/lusty'
-
-" Ruby support
-Plugin 'tpope/vim-rvm'
 
 " Git support
 Plugin 'tpope/vim-fugitive'
@@ -56,16 +44,9 @@ Plugin 'vim-scripts/sudo.vim'
 Plugin 'vim-scripts/AutoTag'
 Plugin 'majutsushi/tagbar'
 
-" Bundles
-Plugin 'tpope/vim-rails'
-
 " Text objects
 Plugin 'kana/vim-textobj-user'
 Plugin 'austintaylor/vim-indentobject'
-Plugin 'bootleq/vim-textobj-rubysymbol'
 Plugin 'vim-scripts/argtextobj.vim'
-
-" Markdown
-Plugin 'Valloric/vim-instant-markdown'
 
 call vundle#end()

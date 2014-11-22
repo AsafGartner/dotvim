@@ -1,6 +1,5 @@
 function! g:LoadProject(dir)
   exe 'cd ' . a:dir
-  Rvm
   NERDTree
   normal <C-W><C-W>
   CtrlP

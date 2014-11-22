@@ -3,9 +3,7 @@ syntax on
 
 filetype off
 
-source ~/.vim/.vundle
-
-set shell=/bin/sh
+source ~/vimfiles/.vundle
 
 set background=dark
 colorscheme solarized
@@ -21,6 +19,6 @@ match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
 
 set foldtext=getline(v:foldstart)
 
-command! VundleEdit vsplit ~/.vim/.vundle
+command! VundleEdit vsplit ~/vimfiles/.vundle
 
 " See plugins folder for more
