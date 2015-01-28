@@ -34,6 +34,5 @@ edit `g:coffee_compiler` in `~/dotvim/vimrc` to point to your CoffeeScript binar
 
 `:Start <dirname>` will do the following:
   * cd to `dirname`
-  * run rvm
   * open NERDTree
   * open CtrlP
