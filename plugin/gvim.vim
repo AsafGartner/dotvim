@@ -6,5 +6,7 @@ set list listchars=tab:▷⋅,trail:·
 
 if has("gui_running")
   set guioptions=egt
-  let g:Powerline_symbols = 'fancy'
+  let g:airline_symbols.branch = '⭠'
+  let g:airline_symbols.readonly = '⭤'
+  let g:airline_symbols.linenr = '⭡'
 endif

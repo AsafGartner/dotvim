@@ -78,4 +78,7 @@ Plugin 'gmarik/vundle'
   " Markdown
   Plugin 'Valloric/vim-instant-markdown'
 
+  " CSV
+  Plugin 'chrisbra/csv.vim'
+
 call vundle#end()
