@@ -3,6 +3,7 @@ let g:vim_json_syntax_conceal = 0
 
 " NERDTree
 let g:NERDTreeRespectWildIgnore = 0
+let g:NERDTreeMinimalUI = 1
 
 " NERDCommenter
 let g:NERDCreateDefaultMappings = 0
