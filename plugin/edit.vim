@@ -2,7 +2,8 @@ set hidden
 set history=1000
 set backspace=indent,eol,start
 set scrolloff=5
-set sidescrolloff=10
+set sidescroll=1
+set sidescrolloff=20
 set autoindent  "This retains indentation level on new lines
 
 " General indentation settings

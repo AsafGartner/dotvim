@@ -1,5 +1,5 @@
 " toggle between last 2 buffers
-nmap <C-E> :b#<CR>
+nmap <M-e> :b#<CR>
 
 " Toggle hlsearch
 nnoremap <Leader>h :set hlsearch!<CR>

@@ -9,7 +9,6 @@ Plugin 'gmarik/vundle'
 
   " Vim UI
   Plugin 'bling/vim-airline'
-  Plugin 'rphillips/vim-zoomwin'
 
   " Vim completion
   Plugin 'Shougo/neocomplcache.vim'
@@ -18,23 +17,15 @@ Plugin 'gmarik/vundle'
   Plugin 'Shougo/vimproc'
 
   " Editing
-  Plugin 'sjl/gundo.vim'
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'vim-scripts/matchit.zip'
-  Plugin 'vim-scripts/YankRing.vim'
   Plugin 'tpope/vim-unimpaired'
   Plugin 'tpope/vim-surround'
-  Plugin 'tpope/vim-abolish'
-  Plugin 'AndrewRadev/splitjoin.vim'
-  Plugin 'skwp/greplace.vim'
 
   " File management
   Plugin 'kien/ctrlp.vim'
   Plugin 'jdowner/ctrlp-py-matcher'
   Plugin 'scrooloose/nerdtree'
-  Plugin 'thisivan/vim-bufexplorer'
-  Plugin 'tpope/vim-eunuch'
-  Plugin 'sjbach/lusty'
 
   " Git support
   Plugin 'tpope/vim-fugitive'
@@ -42,8 +33,6 @@ Plugin 'gmarik/vundle'
   " Utils
   Plugin 'duff/vim-scratch'
   Plugin 'rking/ag.vim'
-  Plugin 'vim-scripts/sudo.vim'
-  Plugin 'vim-scripts/AutoTag'
   Plugin 'majutsushi/tagbar'
 
   " Text objects
@@ -62,23 +51,17 @@ Plugin 'gmarik/vundle'
   Plugin 'kchmck/vim-coffee-script'
   Plugin 'lukaszkorecki/CoffeeTags'
 
-  " Jade
-  Plugin 'digitaltoad/vim-jade'
-
-  " TypeScript
-  Plugin 'leafgarland/typescript-vim'
-
   " JSON
   Plugin 'elzr/vim-json'
 
   " Ruby
-  Plugin 'tpope/vim-rails'
-  Plugin 'bootleq/vim-textobj-rubysymbol'
+  " Plugin 'tpope/vim-rails'
+  " Plugin 'bootleq/vim-textobj-rubysymbol'
 
   " Markdown
-  Plugin 'Valloric/vim-instant-markdown'
+  " Plugin 'Valloric/vim-instant-markdown'
 
   " CSV
-  Plugin 'chrisbra/csv.vim'
+  " Plugin 'chrisbra/csv.vim'
 
 call vundle#end()

@@ -15,7 +15,7 @@ function! s:syncTree()
   endif
 endfunction
 
-augroup synctree
-  autocmd!
-  autocmd BufEnter * call s:syncTree()
-augroup END
+"augroup synctree
+  "autocmd!
+  "autocmd BufEnter * call s:syncTree()
+"augroup END
